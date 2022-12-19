@@ -312,14 +312,14 @@ export function Projetos() {
               </svg>
               <div className="project-links">
                 <a
-                  href="https://github.com/joaotuliojt/dv-musica-library-page"
+                  href="https://github.com/ericcastroc/Dio-Bootcamp-FullStack/tree/main/Spread%20Fullstack%20Developer/Modulo%20HTML-CSS3/Instagram"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <img src={githubIcon} alt="Visitar site" />
                 </a>
                 <a
-                  href="https://joaotuliojt.github.io/dv-musica-library-page/"
+                  href="https://ericcastroc.github.io/Dio-Bootcamp-FullStack/Spread%20Fullstack%20Developer/Modulo%20HTML-CSS3/Instagram/"
                   target="_blank"
                   rel="noreferrer"
                 >
