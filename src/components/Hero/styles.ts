@@ -113,6 +113,10 @@ export const Container = styled.section`
       }
   }
 
+  @media(width: 414px){
+    margin-top: 70%;
+    padding-bottom: 21rem;
+  }
   
 
   @keyframes wave-animation {
