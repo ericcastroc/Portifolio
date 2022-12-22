@@ -71,6 +71,33 @@ export const Container = styled.section`
      }
     }
   }
+
+  @media(max-width: 1280px){
+    padding-top: 12rem;
+  }
+
+  @media(max-width: 1024px){
+    .code-testing{
+      padding-top: 8em;
+      width: 135%;
+    }
+
+    padding-top: 3rem;
+  }
+
+  @media (max-width: 960px){
+    display: block;
+    text-align: center;
+
+    .about-image{
+      display: flex;
+    }
+    .hard-skills{
+      justify-content: center;
+    }
+    
+  }
+
   @media only screen and (max-width: 480px) {
     .about-image {
       max-width: 100%;
@@ -86,18 +113,6 @@ export const Container = styled.section`
     }
   }
 
-  @media (max-width: 960px){
-    display: block;
-    text-align: center;
-
-    .about-image{
-      display: flex;
-    }
-    .hard-skills{
-      justify-content: center;
-    }
-    
-  }
 
   * {
     margin: 0;

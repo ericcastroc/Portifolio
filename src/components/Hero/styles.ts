@@ -74,10 +74,6 @@ export const Container = styled.section`
     }
   }
 
-  @media(max-width:414px){
-
-  }
-  
 
 @media(min-width: 1900px){
 
@@ -95,11 +91,6 @@ export const Container = styled.section`
       h1{
         font-size: 5rem;
       }
-    }
-    
-    .hero-image{
-      display: none;
-    }
 
     img{
       max-width: 500px;
@@ -117,6 +108,15 @@ export const Container = styled.section`
     margin-top: 35%;
   }
 
+  @media(max-width:414px){
+    padding-top: 50%;
+    .hero-image{
+      img{
+        padding-bottom: 5rem;
+        max-width: 850px;
+      }
+  }
+  
   @keyframes wave-animation {
   0% {
     transform: rotate(0deg);
