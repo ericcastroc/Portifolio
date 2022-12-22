@@ -17,7 +17,7 @@ export function Projetos() {
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <div className="imgMockup">
-              <img src={imgLol} className="mockup" alt="mockup"></img>
+              <img src={imgLol} className="mockup"alt="mockup"></img>
             </div>
             <header>
               <svg
@@ -50,6 +50,7 @@ export function Projetos() {
                   <img src={externalLinkIcon} alt="Visitar site" />
                 </a>
               </div>
+              
             </header>
             <div className="body">
               <h3>League of Legends | Login</h3>

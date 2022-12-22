@@ -3,15 +3,11 @@ import styled from "styled-components";
 export const Container = styled.section`
   margin-top: 10rem;
 
-  .imgMockup{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+
+
   .mockup{
-    transition: 0.4s;
-    width: 0px;
-    height: 0px;
+    width: 100%;
+    height: 100%;
   }
 
   h2{
@@ -27,8 +23,7 @@ export const Container = styled.section`
     gap: 2rem;
     padding: 1rem;
     overflow: hidden;
-    align-items: center;
-    
+
 
     .project{
       padding: 2rem 1.8rem;
@@ -42,14 +37,10 @@ export const Container = styled.section`
       &:hover{
         transform: translateY(-5px);
         background-color: var(--green);
-        .mockup{
-          transition: 0.5s;
-          width: 140px;
-          height: 140px;
-        }
       }
 
       header{
+        
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -105,19 +96,6 @@ export const Container = styled.section`
       font-size: 4rem;
       margin-bottom: 2rem;
     }
-
-    .projects{
-      .project{
-        &:hover{
-          .mockup{
-            width: 180px;
-            height: 180px;
-          }
-        }
-        
-      }
-    }
-  }
 
   @media (max-width: 960px){
     .projects{
