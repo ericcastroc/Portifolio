@@ -78,6 +78,14 @@ export const Container = styled.section`
     }
   }
 
+
+  @media(max-width: 414px) {
+    .code-testing{
+      width: 100%;
+      height: 100%;
+    }
+  }
+
   @media (max-width: 960px){
     display: block;
     text-align: center;

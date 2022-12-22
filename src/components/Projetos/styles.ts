@@ -4,7 +4,6 @@ export const Container = styled.section`
   margin-top: 10rem;
 
 
-
   .mockup{
     width: 100%;
     height: 100%;
@@ -23,7 +22,8 @@ export const Container = styled.section`
     gap: 2rem;
     padding: 1rem;
     overflow: hidden;
-
+    align-items: center;
+    
 
     .project{
       padding: 2rem 1.8rem;
@@ -40,7 +40,6 @@ export const Container = styled.section`
       }
 
       header{
-        
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -96,6 +95,19 @@ export const Container = styled.section`
       font-size: 4rem;
       margin-bottom: 2rem;
     }
+
+    .projects{
+      .project{
+        &:hover{
+          .mockup{
+            width: 180px;
+            height: 180px;
+          }
+        }
+        
+      }
+    }
+  }
 
   @media (max-width: 960px){
     .projects{
