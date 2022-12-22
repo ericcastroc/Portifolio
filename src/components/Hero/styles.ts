@@ -75,7 +75,7 @@ export const Container = styled.section`
   }
 
 
-@media(min-width: 1900px){
+@media(max-width: 1920px){
 
   .hero-image{
     img{
@@ -105,18 +105,16 @@ export const Container = styled.section`
     }
   }
   @media(max-width: 480px){
-    margin-top: 35%;
-  }
-
-  @media(max-width:414px){
-    padding-top: 50%;
+    margin-top: 50%;
     .hero-image{
       img{
-        padding-bottom: 5rem;
-        max-width: 850px;
+        max-width: 0px;
+        
       }
   }
+
   
+
   @keyframes wave-animation {
   0% {
     transform: rotate(0deg);
