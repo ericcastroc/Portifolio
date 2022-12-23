@@ -13,7 +13,11 @@
 
 ## 📄 License 
 
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE.md](https://github.com/ericcastroc/Portifolio/blob/main/LICENSE.md)
 
+### Mostre seu Apoio
+
+Dê uma ⭐ se você gostou deste site!
 
 
  
