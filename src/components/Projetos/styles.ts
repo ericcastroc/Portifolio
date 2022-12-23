@@ -43,6 +43,11 @@ export const Container = styled.section`
       &:hover{
         transform: translateY(-5px);
         background-color: var(--green);
+
+        p,h3, li {
+          transition: 0.5s;
+          color: var(--black);
+        }
       }
 
       header{
