@@ -87,25 +87,11 @@ export const Container = styled.section`
   }
 
   @media(min-width: 1900px){
-
-
-  
+    
     h2{
       text-align: center;
       font-size: 4rem;
       margin-bottom: 2rem;
-    }
-
-    .projects{
-      .project{
-        &:hover{
-          .mockup{
-            width: 180px;
-            height: 180px;
-          }
-        }
-        
-      }
     }
   }
 
