@@ -11,7 +11,7 @@ import imgInstagram from "../../assets/img-instagram.png";
 export function Projetos() {
   return (
     <Container id="projetos">
-      <h2>Meus Projetos</h2>
+      <h2><span>Meus Projetos</span></h2>
 
       <div className="projects">
         <ScrollAnimation animateIn="flipInX">

@@ -13,6 +13,12 @@ export const Container = styled.section`
     text-align: center;
     font-size: 4rem;
     margin-bottom: 1rem;
+
+
+  }
+
+  h2 > span {
+    border-bottom: 0.2rem solid var(--blue);
   }
 
   .projects{
