@@ -20,7 +20,7 @@ export function About(){
           <h2>Sobre mim</h2>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000}>
-          <p>Me chamo <span className="information">Eric Henrique de Castro Chaves</span> e sou de <span className="information">Itauna - MG(Brasil)</span>. Atualmente ocupo o cargo de <span className="information">Analista de Sistemas</span> na <span className="information">CMM Sistemas de Informação e Serviços</span>.</p>
+          <p>Me chamo <span className="information">Eric Henrique de Castro Chaves</span> e sou de <span className="information">Itauna - MG(Brasil)</span>. Atualmente ocupo o cargo de <span className="information">Backend Developer</span> na <span className="information">Touchcomp Sistemas LTDA</span>.</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000} style={{marginTop: "2rem", marginBottom: "2rem"}}>
 
