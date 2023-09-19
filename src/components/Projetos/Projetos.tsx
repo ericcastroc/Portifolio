@@ -17,7 +17,7 @@ export function Projetos() {
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <div className="imgMockup">
-              <img src={imgLol} className="mockup"alt="mockup"></img>
+              <img src={imgLol} className="mockup"alt="mockup" loading="lazy"></img>
             </div>
             <header>
               <svg
@@ -40,14 +40,14 @@ export function Projetos() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img src={githubIcon} alt="GitHub" />
+                  <img src={githubIcon} alt="GitHub" loading="lazy" />
                 </a>
                 <a
                   href="https://ericcastroc.github.io/LeagueOfLegends-Login/index.html"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img src={externalLinkIcon} alt="Visitar site" />
+                  <img src={externalLinkIcon} alt="Visitar site" loading="lazy" />
                 </a>
               </div>
               
@@ -73,7 +73,7 @@ export function Projetos() {
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <div className="imgMockup">
-              <img src={imgSpider} className="mockup" alt="mockup"></img>
+              <img src={imgSpider} className="mockup" alt="mockup" loading="lazy"></img>
             </div>
             <header>
               <svg
@@ -96,14 +96,14 @@ export function Projetos() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img src={githubIcon} alt="GitHub" />
+                  <img src={githubIcon} alt="GitHub" loading="lazy" />
                 </a>
                 <a
                   href="https://ericcastroc.github.io/Multiverso-Spider-Man/index.html"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img src={externalLinkIcon} alt="Visitar site" />
+                  <img src={externalLinkIcon} alt="Visitar site" loading="lazy" />
                 </a>
               </div>
             </header>
@@ -128,7 +128,7 @@ export function Projetos() {
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <div className="imgMockup">
-              <img src={imgMario} className="mockup" alt="mockup"></img>
+              <img src={imgMario} className="mockup" alt="mockup" loading="lazy"></img>
             </div>
             <header>
               <svg
@@ -151,14 +151,14 @@ export function Projetos() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img src={githubIcon} alt="GitHub" />
+                  <img src={githubIcon} alt="GitHub" loading="lazy" />
                 </a>
                 <a
                   href="https://ericcastroc.github.io/Mario/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img src={externalLinkIcon} alt="Visitar site" />
+                  <img src={externalLinkIcon} alt="Visitar site" loading="lazy" />
                 </a>
               </div>
             </header>
@@ -182,7 +182,7 @@ export function Projetos() {
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <div className="imgMockup">
-              <img src={imgStranger} className="mockup" alt="mockup"></img>
+              <img src={imgStranger} className="mockup" alt="mockup" loading="lazy"></img>
             </div>
             <header>
               <svg
@@ -205,7 +205,7 @@ export function Projetos() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img src={githubIcon} alt="GitHub" />
+                  <img src={githubIcon} alt="GitHub" loading="lazy" />
                 </a>
 
                 <a
@@ -213,7 +213,7 @@ export function Projetos() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img src={externalLinkIcon} alt="Visitar site" />
+                  <img src={externalLinkIcon} alt="Visitar site" loading="lazy" />
                 </a>
               </div>
             </header>
@@ -238,7 +238,7 @@ export function Projetos() {
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <div className="imgMockup">
-              <img src={imgFlex} className="mockup" alt="mockup"></img>
+              <img src={imgFlex} className="mockup" alt="mockup" loading="lazy"></img>
             </div>
             <header>
               <svg
@@ -261,7 +261,7 @@ export function Projetos() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img src={githubIcon} alt="Visitar site" />
+                  <img src={githubIcon} alt="Visitar site" loading="lazy" />
                 </a>
 
                 <a
@@ -269,7 +269,7 @@ export function Projetos() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img src={externalLinkIcon} alt="Visitar site" />
+                  <img src={externalLinkIcon} alt="Visitar site" loading="lazy" />
                 </a>
               </div>
             </header>
@@ -294,7 +294,7 @@ export function Projetos() {
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
           <div className="imgMockup">
-              <img src={imgInstagram} className="mockup" alt="mockup"></img>
+              <img src={imgInstagram} className="mockup" alt="mockup" loading="lazy"></img>
             </div>
             <header>
               <svg
@@ -317,14 +317,14 @@ export function Projetos() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img src={githubIcon} alt="Visitar site" />
+                  <img src={githubIcon} alt="Visitar site" loading="lazy" />
                 </a>
                 <a
                   href="https://ericcastroc.github.io/Dio-Bootcamp-FullStack/Spread%20Fullstack%20Developer/Modulo%20HTML-CSS3/Instagram/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img src={externalLinkIcon} alt="Visitar site" />
+                  <img src={externalLinkIcon} alt="Visitar site" loading="lazy" />
                 </a>
               </div>
             </header>
